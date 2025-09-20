@@ -2,11 +2,17 @@
   "name": "filet",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "express": "^5.1.0",
+    "supertest": "^7.1.4"
+  }
 }
